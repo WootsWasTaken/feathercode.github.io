@@ -54,7 +54,7 @@ ul,ol,dl{
 	margin: 0;
 
 }
-h1,h2,h3,h4,h5,h6,p{
+h1,h2,h3,h4,h5,h6{
 
 	margin-top: 0;
 	padding-top: 20px;
@@ -62,7 +62,9 @@ h1,h2,h3,h4,h5,h6,p{
 	padding-left: 15px;
 	color: #a6a6a6;
 }
-
+p{
+	color: #000;
+}
 
 a img{
 
