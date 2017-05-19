@@ -165,6 +165,7 @@ body{
 	/*background-color: #f7450c;*/
 	text-decoration: bold;
 	color: #f7450c;
+	cursor: pointer;
 }
 
 .dropdown-content{
