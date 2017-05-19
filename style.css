@@ -160,7 +160,7 @@ body{
 /* dropdown menu*/
 .dropdown{
 	position: relative;
-	display: inline-block;
+	/*display: inline-block;*/
 	padding: 10px;
 	/*background-color: #f7450c;*/
 	text-decoration: bold;
@@ -169,10 +169,11 @@ body{
 }
 
 .dropdown:hover{
+
 	background-image: url("images/nav.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 200%;
+	background-size: 100%;
 	color: #fff;
 }
 
