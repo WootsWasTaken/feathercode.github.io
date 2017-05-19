@@ -144,13 +144,19 @@ body{
 	background-color: #f2f2f2;
 }
  
+ 
+ 
+ 
+ 
+ 
 /* dropdown menu*/
 .dropdown{
 	position: relative;
 	display: inline-block;
 	padding: 10px;
-	background-color: #f7450c;
-	color: #fff;
+	/*background-color: #f7450c;*/
+	
+	color: #f7450c;
 }
 
 .dropdown-content{
@@ -184,9 +190,26 @@ body{
 
 
 .dropdown:hover .dropdown-content{
+	
 	display: block;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 a img{
