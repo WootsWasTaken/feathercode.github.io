@@ -168,6 +168,11 @@ body{
 	cursor: pointer;
 }
 
+.dropdown:hover{
+	background-image: url("images/nav.png");
+	color: #fff;
+}
+
 .dropdown-content{
 	display: none;
 	position: absolute;
