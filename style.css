@@ -13,6 +13,9 @@ body{
 	background-color: #f9f9f9;
 	
 }
+#ofzo p{
+	margin: 0px;
+}
 
 #ofzo a{	
 	padding: 10px;
@@ -34,6 +37,9 @@ body{
 	border: solid 1px #010101;
 	
 }
+
+
+
 #ofzo2 a{
 	text-decoration: underline;
 }
