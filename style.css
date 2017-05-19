@@ -169,7 +169,7 @@ body{
 }
 
 .dropdown:hover{
-
+	display: inline-block;
 	background-image: url("images/nav.png");
 	background-repeat: no-repeat;
 	background-position: center;
