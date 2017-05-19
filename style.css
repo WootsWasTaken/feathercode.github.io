@@ -15,7 +15,8 @@ body{
 }
 #ofzo p{
 	margin: 0px;
-	text-decoration: bold;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 #ofzo a{	
