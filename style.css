@@ -163,14 +163,12 @@ body{
 	display: inline-block;
 	padding: 10px;
 	background-color: #f7450c;
-	text-decoration: bold;
 	color: #fff;
 	cursor: pointer;
 }
 
 .dropdown:hover{
-	display: inline-block;
-	padding: 50px;
+
 	/*background-image: url("images/nav.png");
 	background-repeat: no-repeat;
 	background-position: center;
