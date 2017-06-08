@@ -104,6 +104,23 @@ body{
 	margin: 0px;
  }
 
+ #home{
+	display: block;
+	margin: 0px;
+	background-image: url("images/index.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	border: NONE;
+	color: #e6e6e6;
+	padding: 50px;
+	
+	
+}
+#home h1{
+	margin: 0px;
+ }
+
 
 #contactinf{
 	display: inline-block;
