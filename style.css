@@ -121,6 +121,9 @@ body{
 	margin: 0px;
  }
 
+#err404logo a{
+	margin: 50%;
+}
 
 #contactinf{
 	display: inline-block;
