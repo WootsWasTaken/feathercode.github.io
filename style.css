@@ -126,7 +126,7 @@ body{
 	margin-left: 10%;
 }
 #err404page p{
-	position: absolute;
+	margin: none;
 }
 #err404page h4{
 	
