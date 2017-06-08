@@ -125,6 +125,10 @@ body{
 	margin: 5%;
 	margin-left: 10%;
 }
+#err404page p, #err404page h1{
+	margin: 0.5%;
+	margin-left: 1%;
+}
 
 #contactinf{
 	display: inline-block;
