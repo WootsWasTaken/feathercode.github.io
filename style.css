@@ -129,8 +129,7 @@ body{
 	margin: none;
 }
 #err404page h4{
-	
-	position: relative;
+	margin-bottom: none;
 	margin-left: 1%;
 }
 
