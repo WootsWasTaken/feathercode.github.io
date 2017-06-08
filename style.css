@@ -127,10 +127,11 @@ body{
 }
 #err404page p{
 	margin: auto;
-	position: relative;
+	position: absolute;
 }
 #err404page h4{
-	position: absolute;
+	
+	position: relative;
 	margin-left: 1%;
 }
 
