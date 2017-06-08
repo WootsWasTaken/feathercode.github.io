@@ -126,11 +126,11 @@ body{
 	margin-left: 10%;
 }
 #err404page p{
-	margin-top: 0.1%;
-	margin-left: 5%;
+	margin: auto;
+	position: relative;
 }
-#err404page h1{
-	margin: 0.1%;
+#err404page h4{
+	position: absolute;
 	margin-left: 1%;
 }
 
