@@ -44,7 +44,7 @@ a{
 }
 
 #block a{
-	text-decoration: none;
+	text-decoration: bold;
 	color: #fff;
 	font-size: 14px;
 }
