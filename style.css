@@ -7,7 +7,7 @@ body{
 }
 
 #ofzo{
-	padding: 5px;
+	padding: 3px;
 	border: none;
 	margin-bottom: 0px;
 	background-color: #fff /*#f9f9f9*/;
@@ -33,7 +33,7 @@ body{
 #block{
 	display: inline-block;
 	background-color: #f7450c;
-	padding: 10px;
+	padding: 5px;
 	margin: 2px;
 	border-radius: 5px;
 }
