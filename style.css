@@ -38,14 +38,10 @@ body{
 	border-radius: 5px;
 }
 
-a{
-	text-decoration: underline;
-	color: #fff;
-}
 
 #block a{
 	text-decoration: none;
-	color: #fff;
+	color: #f9f9f9;
 	font-size: 14px;
 	font-weight: bold;
 }
