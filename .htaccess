@@ -1,2 +1,10 @@
 ErrorDocument 404 http://feathercode.github.io/404.html
 
+RewriteEngine On 
+RewriteBase /
+#Do not redirect .well-known
+RewriteCond %{REQUEST_URI} !^/\.well\-known/
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC] 
+RewriteCond %{HTTPS} off [NC] 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=302]
+
