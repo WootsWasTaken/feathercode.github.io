@@ -6,5 +6,5 @@ RewriteBase /
 RewriteCond %{REQUEST_URI} !^/\.well\-known/
 RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC] 
 RewriteCond %{HTTPS} off [NC] 
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=302]
+RewriteRule ^(.*)$ https://www.feathercode.github.io[L,R=302]
 
