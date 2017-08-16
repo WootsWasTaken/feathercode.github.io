@@ -46,7 +46,8 @@ body{
 	flex-direction: row;
 	align-items: baseline;
 	margin-top: -15px;
-	margin-right: none;
+	margin-right: 1%;
+	margin-left: none;
 
 	
 }
@@ -55,7 +56,8 @@ body{
 	flex-direction: row;
 	align-items: baseline;
 	margin-top: -15px;
-	margin-left: none;
+	margin-left: 1%;
+	margin-right: none;
 }
 
 #block{
