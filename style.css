@@ -30,10 +30,14 @@ body{
 	text-decoration: none;
 }*/
 
+#colparent{
+	width: 100%;
+	margin-left: 2%;
+}
 #col1{
 	display: block;
 	width: 50%;
-	margin-left: 2%;
+	
 }
 #col2{
 	display: block;
