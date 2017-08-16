@@ -32,14 +32,14 @@ body{
 
 #colparent{
 	display: inline-block;
-	width: 80%;
+	width: 90%;
 	margin-left: 1%;
 	
 }
 
 #col1{
 	display: block;
-	width: 40%;
+	width: 50%;
 	position: absolute;
 	float: left;
 	margin-bottom: 1%;
@@ -47,7 +47,7 @@ body{
 }
 #col2{
 	display: block;
-	width: 40%;
+	width: 50%;
 	position: relative;
 	float: right;
 	margin: none;
