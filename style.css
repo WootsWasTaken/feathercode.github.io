@@ -43,7 +43,6 @@ body{
 
 #col1{
 	order: 1;
-	width: 500px;
 	flex-direction: row;
 	align-items: baseline;
 	margin-top: -15px;
@@ -53,7 +52,6 @@ body{
 }
 #col2{
 	order: 2;
-	width: 500px;
 	flex-direction: row;
 	align-items: baseline;
 	margin-top: -15px;
