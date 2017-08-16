@@ -36,25 +36,22 @@ body{
 	flex-direction: row;
 	align-items: baseline;
 	margin-top: 3%;
-	margin-left: 2%;
+
 
 
 }
 
 #col1{
-	order: 1;
-	flex-direction: row;
+	position: relative;
 	width: 30%;
 	align-items: baseline;
 	margin-top: -15px;
 	margin-right: 4%;
-	margin-left: 2%;
 
 	
 }
 #col2{
-	order: 2;
-	flex-direction: row;
+	position: absolute;
 	width: 30%;
 	align-items: baseline;
 	margin-top: -15px;
