@@ -31,7 +31,34 @@ body{
 }*/
 
 
+#colpar/*, a*/{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+	justify-content: center;
+	/*margin-left: 12.5%;
+	margin-right: 12.5%;*/
+	margin-bottom: 4%;
 
+
+}
+
+#col1{
+	order: 1;
+	width: 500px;
+	flex-direction: row;
+	align-items: baseline;
+	margin-top: -15px;
+
+	
+}
+#col2{
+	order: 2;
+	width: 500px;
+	flex-direction: row;
+	align-items: baseline;
+	margin-top: -15px;
+}
 
 #block{
 	display: inline-block;
