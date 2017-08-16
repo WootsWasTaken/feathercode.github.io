@@ -64,6 +64,10 @@ body{
 	color: #4d4d4d;
 }
 
+#teamblck{
+	display: inline-block;
+}
+
 #block{
 	display: inline-block;
 	background-color: #f7450c;
