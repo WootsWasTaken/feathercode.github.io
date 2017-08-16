@@ -31,18 +31,21 @@ body{
 }*/
 
 #colparent{
+	display: block;
 	width: 100%;
 	margin-left: 1%;
 }
 
 #col1{
-	display: block;
+	/*display: inline-block;*/
 	width: 50%;
+	position: absolute;
 	
 }
 #col2{
-	display: block;
+	/*display: block;*/
 	width: 50%;
+	position: relative;
 }
 
 #block{
