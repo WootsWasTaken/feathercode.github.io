@@ -296,6 +296,7 @@ img{
 }
 
 h1, h2, h3{
+	text-decoration: none;
 	margin: 1%;
 	margin-top: 2%;
 	margin-left: 2%;
