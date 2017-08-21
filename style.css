@@ -318,8 +318,8 @@ body{
 	display: block;
 	height: 200px;
 	width: 66%;
-	border-top: solid 1px #e6e6e6;
-	border-bottom: solid 1px #e6e6e6;
+	/*border-top: solid 1px #e6e6e6;
+	border-bottom: solid 1px #e6e6e6;*/
 }
 
 #blogbox h2{
@@ -351,7 +351,7 @@ body{
 }
 
 #txt_blg{
-	margin-top: 4%;
+	margin-top: 2%;
 }
 
 #img_blg{
