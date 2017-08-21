@@ -315,6 +315,7 @@ body{
 #blogbox{
 	display: block;
 	width: 66%;
+	height: 25%;
 	border: solid 1px #000;
 }
 
