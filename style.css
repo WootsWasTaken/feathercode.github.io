@@ -311,7 +311,12 @@ body{
 
 
 
-
+/*blog stuff*/
+#blogbox{
+	display: block;
+	width: 66%;
+	border: solid 1px #000;
+}
 
 
 
