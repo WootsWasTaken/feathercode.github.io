@@ -316,18 +316,47 @@ body{
 	margin: auto;
 	margin-top: 2%;
 	display: block;
-	height: 25%;
-	border: solid 1px #000;
+	height: 200px;
+	width: 66%;
+	border-top: solid 1px #e6e6e6;
+	border-bottom: solid 1px #e6e6e6;
+}
+
+#blogbox h2{
+	margin-bottom: 0%;
 }
 
 
+#blogbox:hover{
+	
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
 
+#website_blg{
+	margin: 2%;
+	color: #339933;
+	float: right;
+}
 
+#OS_blg{
+	margin: 2%;
+	color: #0033cc;
+	float: right;
+}
 
+#fc_blg{
+	margin: 2%;
+	color: #ff3300;
+	float: right;
+}
 
+#txt_blg{
+	margin-top: 6%;
+}
 
-
-
+#date_blg{
+	margin-top: 0%;
+}
 
 
 
