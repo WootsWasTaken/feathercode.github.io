@@ -313,6 +313,7 @@ body{
 
 /*blog stuff*/
 #blogbox{
+	margin: auto;
 	margin-top: 2%;
 	display: block;
 	height: 25%;
