@@ -315,8 +315,8 @@ body{
 #blogbox{
 	margin-top: 2%;
 	display: block;
-	width: 66%;
 	height: 500px;
+	width: 66%;
 	border: solid 1px #000;
 }
 
