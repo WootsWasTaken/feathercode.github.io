@@ -354,6 +354,10 @@ body{
 	margin-top: 6%;
 }
 
+#img_blg{
+	float: right;
+}
+
 #date_blg{
 	margin-top: 0%;
 }
