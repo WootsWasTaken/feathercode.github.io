@@ -328,25 +328,27 @@ body{
 
 
 #blogbox:hover{
-	
+	padding: 1%;
+	padding-btoom: 2%;
+	margin-bottom: -2%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 #website_blg{
 	margin: 2%;
-	color: #339933;
+	color: #669999;
 	float: right;
 }
 
 #OS_blg{
 	margin: 2%;
-	color: #0033cc;
+	color: #3366cc;
 	float: right;
 }
 
 #fc_blg{
 	margin: 2%;
-	color: #ff3300;
+	color: #ff704d;
 	float: right;
 }
 
@@ -356,6 +358,14 @@ body{
 
 #img_blg{
 	float: right;
+}
+
+#foot_blg{
+	margin: 5%;
+}
+
+#foot_blg a{
+	text-decoration: none;
 }
 
 #date_blg{
