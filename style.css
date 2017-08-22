@@ -174,7 +174,7 @@ body{
  #home{
 	display: block;
 	margin: 0px;
-	background-image: url("images/index.jpg");
+	background-image: url("http://feathercode.github.io/images/index.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -245,73 +245,12 @@ body{
 #button1:hover{
 	background-color: #f2f2f2;
 }
- 
- 
- 
- 
- 
- 
-/* dropdown menu*/
-.dropdown{
-	position: relative;
-	display: inline-block;
-	padding: 10px;
-	background-color: #f7450c;
-	color: #fff;
-	cursor: pointer;
-}
-
-.dropdown:hover{
-
-	/*background-image: url("images/nav.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 70%;*/
-	color: #fff;
-}
-
-.dropdown-content{
-	display: none;
-	position: absolute;
-	background-color: #fff;
-	
-	/*min-width: 50px;*/
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	/*padding: 10px 10px;*/
-	float: left;
-	left: 0;
-	z-index: 1;
-}
-
-#ofzo .dropdown-content a{
-	
-	margin-bottom: 1%;
-	background-color: #fff;
-	color: #4d4d4d;
-	padding: 12px 12px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
-}
-#ofzo .dropdown-content a:hover{
-	background-color: #f2f2f2;
-	/*border-bottom: solid 1px #f2f2f2;*/
-
-}
-
-
-.dropdown:hover .dropdown-content{
-	
-	display: block;
-
-}
 
 
 
 
 
-
-/*blog stuff*/
+/*blog main stuff*/
 #blogbox{
 	margin: auto;
 	margin-top: 2%;
@@ -376,6 +315,9 @@ body{
 	margin-top: 0%;
 }
 
+/* blog post stuff*/
+
+#blogpostbar{}
 
 
 a img{
