@@ -346,10 +346,9 @@ body{
 
 #author{
 	display: inlne-block;
-	margin-right: 2%;
+	margin-right: 3%;
 	margin-top: 5%;
 	float: right;
-	border-left: solid 1px #bfbfbf;
 }
 #author p{
 	margin-bottom: none;
@@ -357,10 +356,17 @@ body{
 
 #blogtitle{
 	display: block;
+	width: 50%;
+	border-bottom: solid 1px #e6e6e6;
+	margin-left: 2%;
 }
 #blogtitlech{
 	display: inline-block;
 	margin: none;
+}
+
+#blogimg{
+	margin-left: 2%;
 }
 
 #datepost{
