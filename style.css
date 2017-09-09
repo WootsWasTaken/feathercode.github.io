@@ -12,7 +12,7 @@ body{
 }
 
 #ofzo{
-	padding: 3px;
+	padding: 0.5%;
 	border: none;
 	margin-bottom: 0px;
 	background-color: #fff /*#f9f9f9*/;
@@ -68,13 +68,15 @@ body{
 
 #teamblck{
 	display: inline-block;
+	width: 20%;
 	margin-left: 3%;
-	margin-right: 3%;
+	margin-right: 0%;
 	margin-top: 2%;
 }
-#teamblck p{
-	border-top: solid 1px #e6e6e6;
-}	
+
+#teamblck h3, #teamblck h4{
+	margin: 0%;
+}
 
 #block{
 	display: inline-block;
@@ -377,7 +379,7 @@ body{
 }
 
 a img{
-	margin: 10px;
+	margin: 0.75%;
 	border: none;
 
 
