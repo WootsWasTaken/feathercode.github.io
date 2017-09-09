@@ -71,8 +71,30 @@ body{
 	width: 20%;
 	/*margin: 2%;*/
 	margin: auto;
-	margin-left: 2%;
-	margin-right: 2%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+@media screen and (max-width: 720px){
+	#teamblck{
+	display: inline-block;
+	width: 20%;
+	/*margin: 2%;*/
+	margin: auto;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+}
+
+@media screen and (max-width: 720px){
+	#teamblck{
+	display: inline-block;
+	width: 200%;
+	/*margin: 2%;*/
+	margin: auto;
+	margin-left: 3%;
+	margin-right: 3%;
+}
 }
 
 #teamblck h3, #teamblck h4{
