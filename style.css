@@ -73,27 +73,7 @@ body{
 	margin: 2%;
 }
 
-@media screen and (max-width: 720px){
-	#teamblck{
-	display: inline-block;
-	/*width: 200%;
-	margin: 2%;*/
-	margin: auto;
-	margin-left: 30%;
-	margin-right: 30%;
-}
-}
 
-@media screen and (max-width: 920px){
-	#teamblck{
-	display: inline-block;
-	/*width: 200%;
-	margin: 2%;*/
-	margin: auto;
-	margin-left: 30%;
-	margin-right: 30%;
-}
-}
 
 #teamblck h3, #teamblck h4{
 	margin: 0%;
