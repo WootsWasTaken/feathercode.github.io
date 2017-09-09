@@ -69,7 +69,10 @@ body{
 #teamblck{
 	display: inline-block;
 	width: 20%;
-	margin: 2%;
+	/*margin: 2%;*/
+	margin: auto;
+	margin-left: 2%;
+	margin-right: 2%;
 }
 
 #teamblck h3, #teamblck h4{
