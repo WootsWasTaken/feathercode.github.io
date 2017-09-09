@@ -82,6 +82,17 @@ body{
 	margin-right: 30%;
 	}
 	
+	#ofzo{
+	padding: 300px;
+	border: none;
+	margin-bottom: 0px;
+	background-color: #fff /*#f9f9f9*/;
+	
+	}
+	#ofzo p{
+	margin: 0px;
+	text-decoration: none;
+	}
 }
 
 @media screen and (max-width: 920px){
@@ -92,6 +103,17 @@ body{
 	margin: auto;
 	margin-left: 40%;
 	margin-right: 40%;
+	}
+	#ofzo{
+	padding: 2px;
+	border: none;
+	margin-bottom: 0px;
+	background-color: #fff /*#f9f9f9*/;
+	
+	}
+	#ofzo p{
+	margin: 0px;
+	text-decoration: none;
 	}
 }
 
