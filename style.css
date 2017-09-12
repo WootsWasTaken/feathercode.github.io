@@ -79,8 +79,8 @@ body{
 @media screen and (max-width: 720px){
 	#teamblck{
 	display: inline-block;
-	/*width: 200%;
-	margin: 2%;
+	width: 100%;
+	/*margin: 2%;
 	margin: auto;
 	margin-right: 30%;*/
 	float: left;
