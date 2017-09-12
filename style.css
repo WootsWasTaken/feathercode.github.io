@@ -76,8 +76,8 @@ body{
 	#teamblck{
 	display: inline-block;
 	width: 200%;
-	/*margin: 2%;*/
-	margin: auto;
+	/*margin: 2%;
+	margin: auto;*/
 	margin-left: 30%;
 	margin-right: 30%;
 	}
