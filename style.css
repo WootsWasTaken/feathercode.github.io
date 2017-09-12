@@ -71,14 +71,17 @@ body{
 	width: 20%;
 	margin: 2%;
 }
+#teamblck p{
+	margin-left: -0.5%; /* Just because*/
+}
 
 @media screen and (max-width: 720px){
 	#teamblck{
 	display: inline-block;
 	width: 200%;
 	/*margin: 2%;
-	margin: auto;*/
-	margin-right: 30%;
+	margin: auto;
+	margin-right: 30%;*/
 	}
 	
 	#ofzo{
