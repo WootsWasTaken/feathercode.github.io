@@ -391,12 +391,26 @@ body{
 	text-decoration: underline;
 }
 
+#blcklst{
+	display: inline-block;
+	width: 50%;
+	margin-right: 1%;
+	margin: none;
+}
+#blcklst a{
+	text-decoration: none;
+}
+#blcklst a:hover{
+	text-decoration: underline;
+}
+
 #blogtxt{
 	width: 66%;
 }
 
 #author{
 	display: inlne-block;
+	width: 15%;
 	margin-right: 3%;
 	margin-top: 5%;
 	float: right;
