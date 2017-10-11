@@ -21,17 +21,7 @@ body{
 	margin: 0 auto;
 }
 
-#ofzo{
-	padding: 5px;
-	border: none;
-	margin-bottom: 0px;
-	background-color: #fff /*#f9f9f9*/;
-	
-}
-#ofzo p{
-	margin: 0px;
-	text-decoration: none;
-}
+
 
 /*#ofzo a{	
 	padding: 10px;
@@ -151,20 +141,60 @@ body{
 
 #block{
 	display: inline-block;
-	background-color: #f7450c;
-	padding: 5px;
-	margin: 2px;
-	border-radius: 5px;
-}
-
-
-#block a{
+	height: 100%;
+	width: 10%;
+	background-color: #fff;
 	text-decoration: none;
-	color: #f9f9f9;
-	font-size: 14px;
-	/*font-weight: bold;*/
+	text-align: center;
+	padding: 1%;
+	
 }
 
+
+#blockpar{
+	margin-right: 5px;
+	margin: auto;
+	
+}
+
+#blockpar a{
+	text-decoration: none;
+	margin: auto;
+}
+
+#ofzo{
+
+	height: 50px;
+	border: none;
+	margin-bottom: 0px;
+	background-color: #fff /*#f9f9f9*/;
+	width: 100%;
+	box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
+	text-align: center;
+	
+	
+}
+#ofzo p{
+	margin: 0px;
+	text-decoration: none;
+}
+#ofzo a{
+	
+}
+
+
+/*a #block{
+	display: block;
+	color: #000;
+	margin: auto;
+	text-decoration: none;
+	font-size: 14px;
+	/*font-weight: bold;
+}*/
+#block:hover, #block a:hover{
+	background-color: #f7450c;
+	color: #fff;
+}
 
 
 
@@ -333,6 +363,8 @@ body{
 	height: 200px;
 	width: 66%;
 	text-decoration: none;
+	background-color: #fff;
+	padding: 1%;
 	/*border-top: solid 1px #e6e6e6;
 	border-bottom: solid 1px #e6e6e6;*/
 }
@@ -343,9 +375,7 @@ body{
 
 
 #blogbox:hover{
-	width: 70%;
-	padding: 1%;
-	margin: auto;
+	background-color: #fdfdfd;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
