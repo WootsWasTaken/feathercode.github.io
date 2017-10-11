@@ -141,18 +141,18 @@ body{
 
 #block{
 	display: inline-block;
-	height: 100%;
 	width: 10%;
 	background-color: #fff;
 	text-decoration: none;
 	text-align: center;
-	padding: 1%;
+	padding: 14px;
 	
 }
 
 
 #blockpar{
 	margin-right: 5px;
+	padding-bottom: 50px;
 	margin: auto;
 	
 }
