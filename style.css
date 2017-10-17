@@ -78,7 +78,12 @@ body{
 }
 
 @media screen and (max-width: 720px){
-
+	.container{
+	width: -display-width;
+	background-color: #FFF;
+	padding-bottom: 45px;
+	margin: 0 auto;
+	}
 	#team{
 	display: inline-block;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -111,9 +116,25 @@ body{
 	margin: 0px;
 	text-decoration: none;
 	}
+	#block{
+	display: inline-block;
+	width: 10%;
+	background-color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 5px;
+	}
 }
 
 @media screen and (max-width: 920px){
+	.container{
+	width: -display-width;
+	background-color: #FFF;
+	padding-bottom: 45px;
+	margin: 0 auto;
+}
+
 	#teamblck{
 	display: inline-block;
 	/*width: 200%;
@@ -129,9 +150,18 @@ body{
 	background-color: #fff /*#f9f9f9*/;
 	
 	}
-	#ofzo p{
+	#ofzo p{ /* isn't used*/
 	margin: 0px;
 	text-decoration: none;
+	}
+	#block{
+	display: inline-block;
+	width: 10%;
+	background-color: #fff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	margin-left: 5px;
 	}
 }
 
@@ -147,6 +177,7 @@ body{
 	text-align: center;
 	line-height: 50px;
 	margin-left: 5px;
+	margin-rigth: 5px;
 	
 }
 
