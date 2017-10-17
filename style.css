@@ -79,10 +79,10 @@ body{
 
 @media screen and (max-width: 720px){
 	.container{
-	width: -display-width;
+	width: 100%;
 	background-color: #FFF;
 	padding-bottom: 45px;
-	margin: 0 auto;
+	margin: none;
 	}
 	#team{
 	display: inline-block;
@@ -129,10 +129,10 @@ body{
 
 @media screen and (max-width: 920px){
 	.container{
-	width: -display-width;
+	width: 100%;
 	background-color: #FFF;
 	padding-bottom: 45px;
-	margin: 0 auto;
+	margin: none;
 }
 
 	#teamblck{
