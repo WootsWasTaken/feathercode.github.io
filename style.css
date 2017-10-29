@@ -21,7 +21,26 @@ body{
 	margin: 0 auto;
 }
 
+.twitter-timeline{
+	margin: 2%;
+	
+}
 
+.twitter-mention-button{
+	display: inline-block;
+	margin: 2%;
+}
+
+#email-button{
+	display: inline-block;
+	color: #fff;
+	background-color: #ff3300;
+	line-height: 150%;
+	width: 10%;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 2%;
+}
 
 /*#ofzo a{	
 	padding: 10px;
