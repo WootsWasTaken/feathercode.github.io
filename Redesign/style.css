@@ -31,15 +31,16 @@
 }*/
 
 body{
-	background-color: #000;
+	background-color: #fff;
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Oxygen', sans-serif;
 	font-style: normal;
-	color: #f2f2f2;
+	color: #000;
 }
 
 #Home{
+	color: #f2f2f2;
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -74,6 +75,7 @@ body{
 #header{
 	position: fixed;
 	margin-top: 0px;
+	margin-bottom: 10px;
 	height: 55px;
 	width: 100%;
 	
@@ -140,7 +142,7 @@ body{
 
 #header a{
 	text-decoration: none;
-	color: #bfbfbf;
+	color: #8c8c8c;
 	margin-right: 2%;
 }
 
@@ -154,7 +156,7 @@ body{
 	border-bottom: solid 2px #FF6600;
 }
 
-#insertname{
+.insertname{
 	margin: 2%;
 	display: flex;
 	align-items: left;
@@ -162,18 +164,17 @@ body{
 	align-content: left;
 }
 
-#insertname #content{
+.insertname #content{
 	flex-direction: column;
 	margin-left: 2%;
 }
-#insertname h3{
+.insertname h3{
 	margin-top: -5px;
 	margin-left: 2.5%;
 }
 
 h1, h2, h3{
 	font-weight: normal;
-	color: #FFF;
 	margin: 3%;
 }
 p{
