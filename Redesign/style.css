@@ -226,6 +226,7 @@ a{
 
 .insertname #content{
 	flex-direction: column;
+	color: #FF6600;
 	/*margin-left: 2%;*/
 }
 .insertname h3{
