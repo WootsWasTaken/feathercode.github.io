@@ -36,8 +36,8 @@ body{
 	background-color: #fff;
 	margin: 0px;
 	padding: 0px;
-	font-family: 'Oxygen', sans-serif;
-	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Oxygen', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
 	font-style: normal;
 	color: #000;
 }
@@ -57,7 +57,7 @@ body{
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background-image: url("images/banner2.png");
+	background-image: url("images/banner3.png");
 	background-position: center center;
 	background-size: cover;
 	margin: none;
@@ -75,10 +75,10 @@ body{
 }
 
 
-#header{
+.header{
 	position: fixed;
 	margin-top: 0px;
-	
+	background-color: #5c5c5c;
 	height: 55px;
 	width: 100%;
 	
@@ -101,6 +101,7 @@ body{
 	padding-bottom: 2%;
 	width: 100%;
 	margin: none;
+	margin-bottom: 2%;
 	color: /*#4d4d4d*/ #000;
 	align-items: baseline;
 	align-items: center;
@@ -175,7 +176,7 @@ body{
 }
 
 
-#header #child{
+.header #child{
 	margin: 10px;
 	display: flex;
 	align-items: center;
@@ -183,7 +184,7 @@ body{
 	align-content: center;
 }
 
-#header #logo{
+.header #logo{
 	margin: 10px;
 	display: flex;
 	align-items: center;
@@ -192,20 +193,60 @@ body{
 	margin-left: 5px;
 }
 
-#header a{
+.header a{
 	text-decoration: none;
 	color: #8c8c8c;
 	margin-right: 2%;
 }
 
-#header #child a:hover{
+.header #child a:hover{
 	text-decoration: none;
 	color: #FF6600;
 }
-#header #child a.active{
+.header #child a.active{
 	text-decoration: none;
 	color: #FF6600;
 	border-bottom: solid 2px #FF6600;
+}
+
+
+#footer1{
+	display: flex;
+	margin: 5%;
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	bottom: 0%;
+	align-items: center;
+	justify-content: left;
+	align-content: center;
+}
+#footer1 a{
+	top: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	
+}
+#footer1 a:hover{
+	color: #FF6600;
+}
+
+#buttonfooter{
+	background-color: #FF6600;
+	color: #fff;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 5px;
+	margin-right: 1%;
+	margin-left: 77%;
+	
+}
+a:hover #buttonfooter{
+	color: #fff;
+	background-color: #ff8533;
+	
 }
 
 .insertname{
