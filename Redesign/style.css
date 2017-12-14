@@ -278,6 +278,9 @@ a{
 }
 
 .insertname #content{
+	display: block;
+	width: 100%;
+	text-align: center;
 	color: #FF6600;
 	/*margin-left: 2%;*/
 }
