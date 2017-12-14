@@ -78,7 +78,7 @@ body{
 .header{
 	position: fixed;
 	margin-top: 0px;
-	background-color: #5c5c5c;
+	/*background-color: #5c5c5c;*/
 	height: 55px;
 	width: 100%;
 	
@@ -277,7 +277,6 @@ a{
 }
 
 .insertname #content{
-	flex-direction: column;
 	color: #FF6600;
 	/*margin-left: 2%;*/
 }
