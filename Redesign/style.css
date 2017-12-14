@@ -215,17 +215,24 @@ body{
 	margin: 5%;
 	background-color: #f2f2f2;
 	width: 100%;
-	height: 100px;
+	height: 75px;
 	margin: 0;
-	bottom: 0%;
+	/*bottom: 0%;*/
 	align-items: center;
-	justify-content: left;
+	justify-content: center;
 	align-content: center;
 }
+
+#footer1 #fchildr{
+	
+	float: right;
+}
 #footer1 a{
+	/*display: flex;*/
 	top: 5px;
+	left: 4%;
 	margin-left: 5px;
-	margin-right: 5px;
+	margin-right: 50px;
 	text-decoration: none;
 	
 }
@@ -233,17 +240,19 @@ body{
 	color: #FF6600;
 }
 
-#buttonfooter{
+.buttonfooter{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
 	background-color: #FF6600;
 	color: #fff;
-	display: inline-block;
 	border-radius: 5px;
 	padding: 5px;
-	margin-right: 1%;
-	margin-left: 77%;
+	left: 4%;
 	
 }
-a:hover #buttonfooter{
+a:hover .buttonfooter{
 	color: #fff;
 	background-color: #ff8533;
 	
