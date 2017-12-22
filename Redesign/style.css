@@ -327,6 +327,9 @@ p{
 	}
 	#team h4, #team h3{
 		margin-top: 0;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
 		flex-direction: row;
 	}
 
