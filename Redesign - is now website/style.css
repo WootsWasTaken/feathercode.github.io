@@ -76,10 +76,10 @@ body{
 }
 #warning{
 	position: fixed;
-	display: flex;
-	left: 65%;
-	margin: auto;
-	background-color: #000;
+	display: block;
+	text-align: center;
+	margin: 0;
+	background-color: #f2f2f2;
 	padding: 5px;
 	border-radius: 5px;
 }
@@ -90,13 +90,14 @@ body{
 	padding-top: 2%;
 	padding-bottom: 2%;
 	width: 100%;
-	margin: none;
 	margin-bottom: 2%;
 	color: /*#4d4d4d*/ #000;
 	align-items: baseline;
 	align-items: center;
 	justify-content: center;
 	align-content: center;
+	
+	
 }
 
 #team h4{
@@ -199,19 +200,34 @@ body{
 	border-bottom: solid 2px #FF6600;
 }
 
+#container{
+	position: relative;
+	margin-top: 5%;
+}
+
+#twitter-timeline{
+	display: inline-block;
+	left: 20%;
+}
+#twcontainer{
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	align-content: center;
+	margin-right: 10%;
+}
 
 #footer1{
-	display: flex;
-	margin: 5%;
+	position: absolute;
 	background-color: #f2f2f2;
 	width: 100%;
-	height: 75px;
-	margin: 0;
-	bottom: 0%;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	align-content: center;
-	align-self:flex-end;
+	bottom: 0%;
+
+	
 }
 
 #footer1 #fchildr{
@@ -294,6 +310,28 @@ a{
 	text-align: center;
 }
 
+#supstuff{
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	text-align: left;
+	margin-top: 2%;
+}
+#supthings{
+	display: flex;
+	width: 25%;
+	margin: 5%;
+	flex-direction: column;
+	
+}
+#supthings h1, #supthings h2, #supthings h3, #supthings h4, #supthings p, #supthings a{
+	margin: 0;
+	margin-bottom: 10px;
+}
+#supthings h3{
+	border-bottom: solid 1px #000;
+}
+
 
 .button:hover{
 	border: none;
@@ -314,6 +352,78 @@ p{
 	margin-left: 3%;
 }
 
+
+/*---------------------------------------------
+ * OLDER STUFF
+ *---------------------------------------------
+ */
+
+/*blog main stuff*/
+#blogbox{
+	margin: auto;
+	margin-top: 2%;
+	display: block;
+	height: 200px;
+	width: 66%;
+	text-decoration: none;
+	background-color: #fff;
+	padding: 1%;
+	/*border-top: solid 1px #e6e6e6;
+	border-bottom: solid 1px #e6e6e6;*/
+}
+
+#blogbox h2{
+	margin-bottom: 0%;
+}
+
+
+#blogbox:hover{
+	background-color: #fdfdfd;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#website_blg{
+	margin: 2%;
+	color: #669999;
+	float: right;
+}
+
+#OS_blg{
+	margin: 2%;
+	color: #3366cc;
+	float: right;
+}
+
+#fc_blg{
+	margin: 2%;
+	color: #ff704d;
+	float: right;
+}
+
+#txt_blg{
+	margin-top: 6%;
+}
+
+#img_blg{
+	float: right;
+}
+
+#foot_blg{
+	margin: 5%;
+}
+
+#foot_blg a{
+	text-decoration: none;
+}
+#foot_blg a:hover{
+	font-weight: bold;
+}
+
+#date_blg{
+	margin-top: 0%;
+}
+
+
 /*--------------------------------------------
  * SMALLER DEVICES
  *--------------------------------------------
@@ -323,7 +433,6 @@ p{
 	#team{
 		flex-direction: column;
 		text-align: center;
-		justify-content: space-between;
 	}
 	#teamblck{
 		width: 100%;
