@@ -321,16 +321,16 @@ p{
 @media screen and (max-width: 920px){
 	#team{
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-content: center;
+		flex-direction: row;
 	}
 	#teamblck{
 		width: 100%;
 	}
 	#team h4, #team h3{
 		margin-top: 0;
-		align-items: center;
-		justify-content: center;
-		align-content: center;
-		flex-direction: row;
 	}
 
 
