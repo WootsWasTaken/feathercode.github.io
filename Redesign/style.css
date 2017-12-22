@@ -321,8 +321,7 @@ p{
 @media screen and (max-width: 920px){
 	#team{
 		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		text-align: center;
 	}
 	#teamblck{
 		width: 100%;
