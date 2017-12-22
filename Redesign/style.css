@@ -319,5 +319,8 @@ p{
  */
  
 @media screen and (max-width: 920px){
-	body{background-color: #000;}
+	#team{
+	flex-direction: column;
+
+}
 }
