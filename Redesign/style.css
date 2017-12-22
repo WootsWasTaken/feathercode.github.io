@@ -322,10 +322,10 @@ p{
 	#team{
 		flex-direction: column;
 		text-align: center;
+		margin: 5%;
 	}
 	#teamblck{
 		width: 100%;
-		border-bottom: single 1px #000;
 	}
 	#team h4, #team h3{
 		text-align: center;
