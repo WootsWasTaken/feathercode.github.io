@@ -325,15 +325,11 @@ p{
 	}
 	#teamblck{
 		width: 100%;
-	}
-	#teamblck p{
+		margin: 2%;
 	}
 	#team h4, #team h3{
 		text-align: center;
 		margin-top: 0;
-	}
-	#team h3{
-		margin-top: 2%;
 	}
 
 
