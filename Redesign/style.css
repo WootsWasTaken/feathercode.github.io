@@ -327,6 +327,7 @@ p{
 		width: 100%;
 	}
 	#team h4, #team h3{
+		text-align: center;
 		margin-top: 0;
 	}
 
