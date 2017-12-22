@@ -322,7 +322,6 @@ p{
 	#team{
 		flex-direction: column;
 		text-align: center;
-		margin: 5%;
 	}
 	#teamblck{
 		width: 100%;
@@ -331,6 +330,8 @@ p{
 		text-align: center;
 		margin-top: 0;
 	}
-
+	.button{
+		width: 30%;
+	}
 
 }
