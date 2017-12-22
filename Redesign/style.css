@@ -284,6 +284,30 @@ a{
 	color: #FF6600;
 	/*margin-left: 2%;*/
 }
+#paragraph{
+	width: 70%;
+	text-align: center;
+}
+
+.button{
+	box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.2);
+	text-decoration: none;
+	color: #fff;
+	background-color: #ff6600;
+	/*border-left: solid 1px #999;
+	border-right: solid 1px #737373;*/
+	width: 8%;
+	padding: 5px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+
+.button:hover{
+	border: none;
+	background-color: #FF8500;
+}
+
 .insertname h3{
 	margin-top: -5px;
 	margin-left: 2.5%;
