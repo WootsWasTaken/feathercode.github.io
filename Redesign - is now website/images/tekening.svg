@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   inkscape:export-filename="D:\REPOS\feathercode.github.io\Redesign\images\banner3.png"
+   inkscape:export-filename="D:\REPOS\feathercode.github.io\images\banner4.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:docname="tekening.svg">
@@ -43,6 +43,19 @@
        x2="883.35297"
        y2="598.80365"
        gradientUnits="userSpaceOnUse" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4158"
+       x="-0.0099837401"
+       width="1.0199675"
+       y="-0.015036734"
+       height="1.0300735">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="6.2023366"
+         id="feGaussianBlur4160" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -52,8 +65,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="499.32307"
-     inkscape:cy="430.32867"
+     inkscape:cx="638.30708"
+     inkscape:cy="434.11521"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
      showgrid="false"
@@ -157,7 +170,7 @@
      id="layer3"
      inkscape:label="achtergrond 5c">
     <rect
-       style="display:inline;opacity:1;fill:#5c5c5c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:inline;opacity:1;fill:#2c2f33;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4158)"
        id="rect4147-8"
        width="1490.9851"
        height="989.94952"
