@@ -210,8 +210,37 @@ body{
 	margin-top: 5%;
 }
 
-#contain{
-	
+#err404logo{
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	margin-top: 5%;
+}
+
+.err4page{
+	display: flex;
+	/*align-items: left;
+	/*justify-content: center;
+	align-content: center;*/
+	text-align: center;
+	flex-direction: column;
+	margin-top: 15%;
+	float: left;
+	margin-left: 5%;
+}
+
+.err4bg{
+	background-image: url("images/owl.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
+}
+
+.err4bg a{
+	color: #be3a26;
 }
 
 #twitter-timeline{
@@ -441,6 +470,7 @@ p{
 #date_blg{
 	margin-top: 0%;
 }
+
 
 
 /*--------------------------------------------
