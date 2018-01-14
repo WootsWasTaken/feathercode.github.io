@@ -493,5 +493,8 @@ p{
 	.button{
 		width: 30%;
 	}
+	#supthings{
+		flex-direction: row;
+	}
 
 }
